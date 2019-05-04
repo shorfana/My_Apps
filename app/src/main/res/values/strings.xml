@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="music">Music</string>
+    <string name="profile">Profile</string>
+    <string name="daily">Daily</string>
+    <string name="gallery">Gallery</string>
+    <string name="deskripsi">Halooo, nama saya Muhammad Iqbal Shorfana saya adalah mahasiswa informatika semester 6 di UNIKOM bandung.
+        Saya lahir di jakarta pada tanggal 2 September 1998 anak pertama dari dua bersaudara. Kalau dihitung dari bulan hijriyah saya lahir pada tanggal 11
+        Jumadil Awal 1419. dan sekarang tahun 1440 itu artinya saya sudah berumur 21 tahun. Tapi kalau dihitung dari tanggal
+        masehi saya masih 20 tahun.
+    </string>
+    <string name="swipe"><![CDATA[SWIPE -->]]></string>
+    <string name="pray">Pray</string>
+    <string name="code">Code</string>
+    <string name="sleep">Sleep</string>
+    <string name="findme">Find Me with Google Maps</string>
+    <string name="versionapp">About</string>
+    <string name="aktivitash">Daily Activity</string>
+    <string name="tmbhAct">Tambah Aktivitas</string>
+</resources>
