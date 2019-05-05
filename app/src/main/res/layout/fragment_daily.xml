@@ -40,7 +40,9 @@
                     android:layout_marginEnd="35dp"
                     android:layout_marginStart="10dp"
                     android:gravity="center"
-                    android:text="@string/aktivitash"/>
+                    android:text="@string/aktivitash"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
             <android.support.v7.widget.RecyclerView
@@ -57,7 +59,9 @@
         android:text="Friends"
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -13,6 +13,11 @@ import com.iqbal.myapplication.model.DailyModel;
 
 import java.util.ArrayList;
 
+// Tanggal Pengerjaan : 2 mei 2019
+// NIM                : 10116465
+// Nama               : Muhammad Iqbal Shorfana
+// Kelas              : AKB 11
+
 public class DailyAdapter extends RecyclerView.Adapter<DailyAdapter.DailyViewHolder> {
 
     private ArrayList<DailyModel> mDailyModel;
@@ -29,6 +34,7 @@ public class DailyAdapter extends RecyclerView.Adapter<DailyAdapter.DailyViewHol
     }
 
     public DailyAdapter(ArrayList<DailyModel> dailyList){
+
         mDailyModel = dailyList;
     }
 

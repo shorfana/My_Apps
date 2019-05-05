@@ -1,5 +1,10 @@
 package com.iqbal.myapplication.view.gallery;
 
+// Tanggal Pengerjaan : 3 mei 2019
+// NIM                : 10116465
+// Nama               : Muhammad Iqbal Shorfana
+// Kelas              : AKB 11
+
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -18,8 +23,6 @@ import java.util.ArrayList;
 
 public class GalleryFragment extends Fragment {
 
-//    ArrayList personNames = new ArrayList<>(Arrays.asList("gambar","gambar","gambar","gambar","gambar","gambar","gambar"));
-//    ArrayList personImages = new ArrayList<>(Arrays.asList(R.drawable.prayer,R.drawable.prayer,R.drawable.prayer,R.drawable.prayer,R.drawable.prayer,R.drawable.prayer,R.drawable.prayer));
     private RecyclerView mRecycleView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;

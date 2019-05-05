@@ -1,5 +1,10 @@
 package com.iqbal.myapplication.adapter;
 
+// Tanggal Pengerjaan : 28 april 2019
+// NIM                : 10116465
+// Nama               : Muhammad Iqbal Shorfana
+// Kelas              : AKB 11
+
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;

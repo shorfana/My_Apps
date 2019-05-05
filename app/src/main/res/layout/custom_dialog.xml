@@ -4,12 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginRight="20dp"
-    android:layout_marginLeft="20dp">
+    android:layout_marginLeft="20dp"
+    android:layout_gravity="center"
+    android:background="@drawable/card_home_f"
+    android:gravity="center"
+    android:orientation="vertical">
+
     <TextView
+        android:id="@+id/versi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:gravity="center"
-        android:text="@string/versionapp"/>
-
+        android:text="Application Version 1.0.0"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/made"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="Made By Muhammad Iqbal Shorfana"/>
+    <Button
+        android:id="@+id/SIP"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="SIP"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn_gradient_style"/>
 </LinearLayout>

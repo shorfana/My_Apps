@@ -1,5 +1,10 @@
 package com.iqbal.myapplication.model;
 
+// Tanggal Pengerjaan : 3 mei 2019
+// NIM                : 10116465
+// Nama               : Muhammad Iqbal Shorfana
+// Kelas              : AKB 11
+
 public class GalleryModel {
     private int imageResource;
 

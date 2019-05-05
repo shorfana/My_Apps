@@ -1,27 +1,66 @@
 package com.iqbal.myapplication.model;
 
-public class MusicModel {
-    private int musicResource;
-    private String namaMusic;
+public class MusicModel  {
+    private int id,image;
+    private String title;
+    private String artist;
+    private String duration;
+    private int path;
 
-    public MusicModel(int musicResource, String namaMusic) {
-        this.musicResource = musicResource;
-        this.namaMusic = namaMusic;
+    public MusicModel(int id, int image, String title, String artist, String duration, int path) {
+        this.id = id;
+        this.image = image;
+        this.title = title;
+        this.artist = artist;
+        this.duration = duration;
+        this.path = path;
     }
 
-    public int getMusicResource() {
-        return musicResource;
+    public int getId() {
+        return id;
     }
 
-    public void setMusicResource(int musicResource) {
-        this.musicResource = musicResource;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getNamaMusic() {
-        return namaMusic;
+    public int getImage() {
+        return image;
     }
 
-    public void setNamaMusic(String namaMusic) {
-        this.namaMusic = namaMusic;
+    public void setImage(int image) {
+        this.image = image;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public void setArtist(String artist) {
+        this.artist = artist;
+    }
+
+    public String getDuration() {
+        return duration;
+    }
+
+    public void setDuration(String duration) {
+        this.duration = duration;
+    }
+
+    public int getPath() {
+        return path;
+    }
+
+    public void setPath(int path) {
+        this.path = path;
     }
 }

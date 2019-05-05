@@ -52,7 +52,7 @@
                 <TextView
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    android:textSize="16sp"
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:textColor="#3498db"
@@ -62,8 +62,7 @@
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
                     android:layout_gravity="center"
-                    android:tint="#2980b9"
-                    android:src="@drawable/prayer"/>
+                    android:src="@drawable/mosque"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -77,7 +76,7 @@
                 <TextView
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    android:textSize="16sp"
                     android:textColor="#3498db"
                     android:gravity="center"
                     android:layout_gravity="center"
@@ -86,7 +85,6 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
-                    android:tint="#2980b9"
                     android:layout_gravity="center"
                     android:src="@drawable/code"/>
             </LinearLayout>
@@ -102,7 +100,7 @@
                 <TextView
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    android:textSize="16sp"
                     android:textColor="#3498db"
                     android:gravity="center"
                     android:layout_gravity="center"
@@ -111,9 +109,8 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
-                    android:tint="#2980b9"
                     android:layout_gravity="center"
-                    android:src="@drawable/moon"/>
+                    android:src="@drawable/sleeping"/>
             </LinearLayout>
         </LinearLayout>
         <HorizontalScrollView
@@ -128,9 +125,9 @@
 
                 <android.support.v7.widget.CardView
                     android:layout_width="300dp"
-                    android:layout_height="220dp"
+                    android:layout_height="240dp"
                     app:cardCornerRadius="8dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="30dp">
 
@@ -153,7 +150,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:layout_marginTop="15dp"
+                            android:layout_marginTop="5dp"
                             android:text="@string/swipe"
                             android:textStyle="italic"
                             android:tint="#567A8D"/>
@@ -164,9 +161,9 @@
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
                     android:layout_width="300dp"
-                    android:layout_height="220dp"
+                    android:layout_height="240dp"
                     app:cardCornerRadius="8dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="30dp">
 
@@ -178,58 +175,13 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/deskripsi"
+                            android:text="@string/hobi"
                             android:textColor="#80a4b8"
                             android:textSize="15sp"
                             android:elevation="2dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginRight="20dp"/>
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:layout_marginTop="15dp"
-                            android:text="@string/swipe"
-                            android:textStyle="italic"
-                            android:tint="#567A8D"/>
-
-                    </LinearLayout>
-
-
-                </android.support.v7.widget.CardView>
-                <android.support.v7.widget.CardView
-                    android:layout_width="300dp"
-                    android:layout_height="220dp"
-                    app:cardCornerRadius="8dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginRight="30dp"
-                    android:layout_marginLeft="30dp">
-
-                    <LinearLayout
-                        android:background="@drawable/card_home_f"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/deskripsi"
-                            android:textColor="#80a4b8"
-                            android:textSize="15sp"
-                            android:elevation="2dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginRight="20dp"/>
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:layout_marginTop="15dp"
-                            android:text="@string/swipe"
-                            android:textStyle="italic"
-                            android:tint="#567A8D"/>
-
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>

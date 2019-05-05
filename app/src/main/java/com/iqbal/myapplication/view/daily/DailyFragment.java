@@ -1,5 +1,10 @@
 package com.iqbal.myapplication.view.daily;
 
+// Tanggal Pengerjaan : 2 mei 2019
+// NIM                : 10116465
+// Nama               : Muhammad Iqbal Shorfana
+// Kelas              : AKB 11
+
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

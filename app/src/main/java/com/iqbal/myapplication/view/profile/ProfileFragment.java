@@ -1,5 +1,9 @@
 package com.iqbal.myapplication.view.profile;
-
+// Tanggal Pengerjaan : 1 mei 2019
+// NIM                : 10116465
+// Nama               : Muhammad Iqbal Shorfana
+// Kelas              : AKB 11
+import android.app.Dialog;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.net.Uri;
@@ -12,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.util.Util;
@@ -29,7 +34,7 @@ public class ProfileFragment extends Fragment {
         ImageView img2 = (ImageView)myFragmentView.findViewById(R.id.gmail);
         ImageView img3 = (ImageView)myFragmentView.findViewById(R.id.phone);
         Button btnMaps = (Button)myFragmentView.findViewById((R.id.btn_toMaps));
-        CircleImageView imgV = (CircleImageView)myFragmentView.findViewById(R.id.circleImageView2);
+        Button dialogAbout = (Button)myFragmentView.findViewById(R.id.aboutUs);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,12 +86,25 @@ public class ProfileFragment extends Fragment {
             }
         });
 
-        imgV.setOnClickListener(new View.OnClickListener() {
+        dialogAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                        Uri.parse("https://www.google.com/maps/search/?api=1&query=-6.8856043,107.6139917"));
-                startActivity(intent);
+                final Dialog dialog = new Dialog(getActivity());
+                dialog.setCancelable(true);
+
+                View view  = getActivity().getLayoutInflater().inflate(R.layout.custom_dialog,null);
+                dialog.setContentView(view);
+                dialog.getWindow().setBackgroundDrawableResource(R.drawable.card_home_f);
+                dialog.setTitle("ABOUT");
+
+                Button button = (Button)dialog.findViewById(R.id.SIP);
+                button.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+                dialog.show();
             }
         });
 

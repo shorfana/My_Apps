@@ -11,6 +11,11 @@ import android.widget.TextView;
 import com.iqbal.myapplication.R;
 import com.iqbal.myapplication.model.FriendsModel;
 
+// Tanggal Pengerjaan : 2 mei 2019
+// NIM                : 10116465
+// Nama               : Muhammad Iqbal Shorfana
+// Kelas              : AKB 11
+
 import java.util.ArrayList;
 
 public class FriendAdapter extends RecyclerView.Adapter<FriendAdapter.FriendsViewHolder> {

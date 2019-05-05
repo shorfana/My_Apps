@@ -1,5 +1,11 @@
 package com.iqbal.myapplication.view;
 
+// Tanggal Pengerjaan : 27 april 2019
+// NIM                : 10116465
+// Nama               : Muhammad Iqbal Shorfana
+// Kelas              : AKB 11
+
+
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;

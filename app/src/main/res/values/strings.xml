@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Shorfana`s</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
@@ -7,7 +7,7 @@
     <string name="profile">Profile</string>
     <string name="daily">Daily</string>
     <string name="gallery">Gallery</string>
-    <string name="deskripsi">Halooo, nama saya Muhammad Iqbal Shorfana saya adalah mahasiswa informatika semester 6 di UNIKOM bandung.
+    <string name="deskripsi">Description About Me \n\nHalooo, nama saya Muhammad Iqbal Shorfana saya adalah mahasiswa informatika semester 6 di UNIKOM bandung.
         Saya lahir di jakarta pada tanggal 2 September 1998 anak pertama dari dua bersaudara. Kalau dihitung dari bulan hijriyah saya lahir pada tanggal 11
         Jumadil Awal 1419. dan sekarang tahun 1440 itu artinya saya sudah berumur 21 tahun. Tapi kalau dihitung dari tanggal
         masehi saya masih 20 tahun.
@@ -20,4 +20,8 @@
     <string name="versionapp">About</string>
     <string name="aktivitash">Daily Activity</string>
     <string name="tmbhAct">Tambah Aktivitas</string>
+    <string name="hobi">Interest :\n\n1. Reading (Al-Qur`an and Motivation Books)
+        \n2. Internet (Browsing,Youtube,Web Developing)
+        \n3. Listening (Murrotal Qur`an and Classic Music)
+        \n4. Sport(Football,Badminton, Volley)</string>
 </resources>

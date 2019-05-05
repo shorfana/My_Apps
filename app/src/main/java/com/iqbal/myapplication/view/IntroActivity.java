@@ -1,5 +1,8 @@
 package com.iqbal.myapplication.view;
-
+// Tanggal Pengerjaan : 28 april 2019
+// NIM                : 10116465
+// Nama               : Muhammad Iqbal Shorfana
+// Kelas              : AKB 11
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.design.widget.TabLayout;
@@ -58,9 +61,9 @@ public class IntroActivity extends AppCompatActivity {
 
         //fill list screen
         final List<ScreenModel> mList = new ArrayList<>();
-        mList.add(new ScreenModel("Fresh Food","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",R.drawable.img1));
-        mList.add(new ScreenModel("Fast Delivery","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",R.drawable.img2));
-        mList.add(new ScreenModel("Easy Payment","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",R.drawable.img3));
+        mList.add(new ScreenModel("Muhammad","Arti nama Muhammad adalah Pemimpin yang adil. Diharapkan dengan orang tua saya memberi nama ini menjadi pemimpin yang adil seperti Nabi Muhammad",R.drawable.muhammad));
+        mList.add(new ScreenModel("Iqbal","Arti nama Iqbal adalah Pujangga Muslim. Katanya maksudnya juga sebagai Kejayaan",R.drawable.id));
+        mList.add(new ScreenModel("Shorfana","Arti nama Shorfana adalah Sholeh. Diharapkan Diberikan nama Shorfana menjadi manusia yang sholeh dan berguna. \n Kuyyy Kenalan dengan aku caranya 'TAP' button dibawah ini :)",R.drawable.so));
 
         //setup viewPager
         screenPager = findViewById(R.id.screen_viewpager);
